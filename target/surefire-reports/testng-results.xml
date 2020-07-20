@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="267032" started-at="2020-07-08T11:36:55 IST" finished-at="2020-07-08T11:41:22 IST">
+    <groups>
+    </groups>
+    <test name="homepage" duration-ms="267032" started-at="2020-07-08T11:36:55 IST" finished-at="2020-07-08T11:41:22 IST">
+      <class name="Fremeworks.HomePage">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:Fremeworks.HomePage@7c24b813]" name="intialize" is-config="true" duration-ms="31" started-at="2020-07-08T11:36:55 IST" finished-at="2020-07-08T11:36:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="HOmePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Fremeworks.HomePage@7c24b813]" name="HOmePageNavigation" duration-ms="96467" started-at="2020-07-08T11:36:56 IST" data-provider="getdata" finished-at="2020-07-08T11:38:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harshita.jain.sweetz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harshita@9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non-restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HOmePageNavigation -->
+        <test-method status="PASS" signature="HOmePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Fremeworks.HomePage@7c24b813]" name="HOmePageNavigation" duration-ms="168783" started-at="2020-07-08T11:38:32 IST" data-provider="getdata" finished-at="2020-07-08T11:41:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HOmePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Fremeworks.HomePage@7c24b813]" name="teardown" is-config="true" duration-ms="1568" started-at="2020-07-08T11:41:21 IST" finished-at="2020-07-08T11:41:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Fremeworks.HomePage -->
+    </test> <!-- homepage -->
+  </suite> <!-- Suite -->
+</testng-results>

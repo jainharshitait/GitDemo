@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 272.267 s <<< FAILURE! - in TestSuite
+Fremeworks.validateTitle.validatetitleapp  Time elapsed: 4.099 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...> but was:<...123>
+	at Fremeworks.validateTitle.validatetitleapp(validateTitle.java:43)
+
